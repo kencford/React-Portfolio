@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Portfolio() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
+    <div className='mt-5'>
+      <h1 className="text-end px-5 mb-5 bg-primary text-white py-3">Portfolio</h1>
+      <p className='px-5'>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
         dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
