@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div className="mt-5">
-      <h1 className="text-end px-5 mb-5 bg-info text-white py-3">Contact Page</h1>
+      <h1 className="text-end px-5 mb-5 bg-info text-white py-3">Contact Me</h1>
       <p className='px-5'>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
