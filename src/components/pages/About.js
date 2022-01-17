@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className='mt-5'>
-      <h1 className="text-end px-5 mb-5 bg-warning text-white py-3">About Page</h1>
+      <h1 className="text-end px-5 mb-5 bg-primary text-white py-3">About Page</h1>
       <p className='px-5'>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

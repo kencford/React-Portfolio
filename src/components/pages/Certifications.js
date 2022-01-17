@@ -3,7 +3,7 @@ import React from 'react';
 export default function Certifications() {
   return (
     <div className="mt-5">
-      <h1 className="text-end px-5 mb-5 bg-success text-white py-3">Certifications Page</h1>
+      <h1 className="text-end px-5 mb-5 bg-primary text-white py-3">Certifications</h1>
       <p className='px-5'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
