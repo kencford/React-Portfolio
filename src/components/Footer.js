@@ -1,8 +1,8 @@
 import React from 'react'
-import facebook from '../icons/facebook-icon.png'
-import github from '../icons/linkedin-icon.png'
+import github from '../icons/facebook-icon.png'
+import linkedIn from '../icons/linkedin-icon.png'
 
-function Footer() {
+function Footer({currentPage, handlePageChange}) {
     return (
         <div className="footer">
             <a
@@ -13,9 +13,9 @@ function Footer() {
             </a>
             <a
                 className="icon"
-                href="https://www.facebook.com/ken.crawford.3114"
+                href="https://www.linkedin.com/in/crawfordken/"
             >
-                <img src={facebook} alt="Ken-Facebook" />
+                <img src={linkedIn} alt="Ken-Facebook" />
             </a>
 
 
