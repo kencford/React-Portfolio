@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <>
+    <div>
     <nav className="d-flex justify-content-between">
       <h1 className="text-success align-self-end w-50 py-1 px-3">Ken Crawford</h1>
     <ul className="nav nav-tabs py-1 ">
@@ -62,7 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
     </ul>
     </nav>
-    </>
+    </div>
   );
 }
 
