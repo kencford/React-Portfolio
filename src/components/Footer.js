@@ -9,7 +9,13 @@ function Footer() {
                 className="icon"
                 href="https://github.com/kencford"
             >
-                <img src={github} alt="github-ken" />
+                <img src={github} alt="Ken-Github" />
+            </a>
+            <a
+                className="icon"
+                href="https://www.facebook.com/ken.crawford.3114"
+            >
+                <img src={facebook} alt="Ken-Facebook" />
             </a>
 
 
