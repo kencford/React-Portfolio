@@ -1,6 +1,6 @@
 import React from 'react'
-import facebook from './icons/facebook-icon.png'
-import github from './icons/linkedin-icon.png'
+import facebook from '../icons/facebook-icon.png'
+import github from '../icons/linkedin-icon.png'
 
 function Footer() {
     return (

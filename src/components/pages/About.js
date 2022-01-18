@@ -1,5 +1,5 @@
 import React from 'react';
-import kenImg from '../images/ken.jpg'
+import kenImg from '../../images/ken.jpg'
 
 export default function About() {
   return (
