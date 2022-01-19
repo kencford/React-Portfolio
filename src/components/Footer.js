@@ -1,5 +1,5 @@
 import React from 'react'
-import github from '../icons/facebook-icon.png'
+import github from '../icons/GitHub_Logo.png'
 import linkedIn from '../icons/linkedin-icon.png'
 
 function Footer({currentPage, handlePageChange}) {
