@@ -15,7 +15,7 @@ const EachCard = (props) => {
                 <Card.Title>{props.name}</Card.Title>
                 {/* <Card.Text className="card-text">{props.description}</Card.Text> */}
                 <Button href={props.githubUrl} target="_blank" className="btn btn-primary">Go to Repository</Button>
-                <Button href={props.url} className="btn btn-primary">Go to website</Button>
+                <Button href={props.url} target="_blank" className="btn btn-primary">Go to website</Button>
             </Card.Body>
         </Card>
     )
