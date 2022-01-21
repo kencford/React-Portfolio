@@ -38,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#certifications"
           onClick={() => handlePageChange('Certifications')}
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Certifications
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#contact"

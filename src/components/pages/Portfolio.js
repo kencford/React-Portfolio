@@ -1,24 +1,38 @@
 import React from 'react';
+// import NBAImage from "../../images/NBA-Team-Stats.png";
+import EachCard from "../EachCard"
+import nbaImage from "../../images/NBA-Team-Stats.png"
+const projectData = [
+  {
+    name: "NBA Team Stats",
+    image: nbaImage,
+    githubUrl: "https://github.com/kencford/NBA-Team-Stats.git",
+    url: "https://kencford.github.io/NBA-Team-Stats/"
+  },
+  {
+    name: "NBA Team Stats",
+    image: nbaImage,
+    githubUrl: "https://github.com/kencford/Mental-Health-Tracker.git",
+    url: "https://mental-health-tracker-kac.herokuapp.com/"
+  },
+]
+
+const showProjects = () => {
+  return projectData.map((project) => (
+      <EachCard 
+      name = {project.name}
+      image = {project.image}
+      githubUrl = {project.githubUrl}
+      url = {project.url}
+      />
+  ))
+}
 
 export default function Portfolio() {
   return (
-    <div className='mt-5'>
-      <h1 className="text-end px-5 mb-5 bg-success text-white py-3">Portfolio</h1>
-      <p className='px-5'>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+ <>
+ <h1>My Projects</h1>
+ {showProjects()}
+ </>
   );
 }
