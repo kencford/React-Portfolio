@@ -4,7 +4,6 @@
 This website uses a single React page with several components showing Ken's "About Me", "Portfolio", "Resume", and "Resume" components.
 
 ## Table of Contents
-- [Installation Instructions](#installation-instructions)
 - [Usage Information](#usage-information)
 - [License](#license)
 ## Usage Information
