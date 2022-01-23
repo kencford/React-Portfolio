@@ -48,20 +48,24 @@ const projectData = [
 
 const showProjects = () => {
   return projectData.map((project) => (
-      <EachCard 
-      name = {project.name}
-      image = {project.image}
-      githubUrl = {project.githubUrl}
-      url = {project.url}
-      />
+    <EachCard
+      name={project.name}
+      image={project.image}
+      githubUrl={project.githubUrl}
+      url={project.url}
+    />
   ))
 }
 
 export default function Portfolio() {
   return (
- <>
- <h1>My Projects</h1>
- {showProjects()}
- </>
+    <>
+      <h1 className="text-end px-5 mb-5 bg-info text-white py-3">Portfolio</h1>
+      <div className="container d-flex">
+        <div className="row row-wrap">
+          {showProjects()}
+        </div>
+      </div>
+    </>
   );
 }

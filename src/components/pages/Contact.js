@@ -3,8 +3,8 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <div class="container mt-5">
       <h1 className="text-end px-5 mb-5 bg-success text-white py-3">Contact Me</h1>
+      <div class="container mt-5">
         <h1>Contact Me!</h1>
         <form class="row g-3">
           <div class="col-md-6">
