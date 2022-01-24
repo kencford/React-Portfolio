@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.3b2222d9.css",
+    "main.js": "/React-Portfolio/static/js/main.9e1fdd57.js",
+    "static/media/NBA-Team-Stats.png": "/React-Portfolio/static/media/NBA-Team-Stats.ab29007ae18d258bd9b8.png",
+    "static/media/Ken-Crawford.pdf": "/React-Portfolio/static/media/Ken-Crawford.8874d41cec5737aff98c.pdf",
+    "static/media/Work-Day-Scheduler.png": "/React-Portfolio/static/media/Work-Day-Scheduler.ae5c817d33f653c0cc19.png",
+    "static/media/The-Tech-Blog.png": "/React-Portfolio/static/media/The-Tech-Blog.ecbe589be81c474737c2.png",
+    "static/media/Mental-Health-Tracker.png": "/React-Portfolio/static/media/Mental-Health-Tracker.4a17661c212b5963da64.png",
+    "static/media/Password-Generator.png": "/React-Portfolio/static/media/Password-Generator.88906f9555c32edb0983.png",
+    "static/media/Music-Dance-Challenge.png": "/React-Portfolio/static/media/Music-Dance-Challenge.41963aa0fa3914d160a2.png",
+    "static/media/ken.jpg": "/React-Portfolio/static/media/ken.6aab46a6933f01bdbd85.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.3b2222d9.css.map": "/React-Portfolio/static/css/main.3b2222d9.css.map",
+    "main.9e1fdd57.js.map": "/React-Portfolio/static/js/main.9e1fdd57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b2222d9.css",
+    "static/js/main.9e1fdd57.js"
+  ]
+}
